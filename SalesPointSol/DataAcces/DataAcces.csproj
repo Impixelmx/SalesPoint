@@ -57,13 +57,14 @@
     <Compile Include="Entities\Categoria.cs" />
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Codigo.cs" />
+    <Compile Include="Entities\DetalleVenta.cs" />
     <Compile Include="Entities\Empleado.cs" />
+    <Compile Include="Entities\Ingreso.cs" />
     <Compile Include="Entities\Inventario.cs" />
-    <Compile Include="Entities\InventarioEntrada.cs" />
-    <Compile Include="Entities\InventarioItemEntrada.cs" />
-    <Compile Include="Entities\InventarioItemSalida.cs" />
+    <Compile Include="Entities\DetalleIngreso.cs" />
     <Compile Include="Entities\InventarioSalida.cs" />
     <Compile Include="Entities\Moneda.cs" />
+    <Compile Include="Entities\Presentacion.cs" />
     <Compile Include="Entities\Profesion.cs" />
     <Compile Include="Entities\Proveedor.cs" />
     <Compile Include="Entities\Talla.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Entities\SerieFolio.cs" />
     <Compile Include="Entities\UnidadMedida.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\Ventas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

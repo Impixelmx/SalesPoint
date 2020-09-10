@@ -21,19 +21,27 @@ namespace DataAcces.Entities
         public string Modelo { get; set; }
         public string Categoria { get; set; }
         public string UnidadMedida { get; set; }
-        public string Activo { get; set; }  
+        public string Status { get; set; }  
         public string Clave { get; set; }
         public bool EsVendible { get; set; }
         public bool EsComprable { get; set; }
         public bool EsInventariable { get; set; }
         public string Ubicacion { get; set; }
         public string TiempodeVida { get; set; }
+        public decimal Iva { get; set; }
 
         #region Inventario
         // INVENTARIO
         public Guid IdInventario { get; set; }
         public int SalidaInventario { get; set; }
         public int ArtiuloSalidaInventario { get; set; }
+
+        #endregion
+
+        #region LLaves Foraneas
+        public Guid IdCategoria { get; set; }
+        public Guid IdPresentacion { get; set; }
+
 
         #endregion
 
