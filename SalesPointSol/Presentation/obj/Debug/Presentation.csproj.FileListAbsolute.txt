@@ -1,0 +1,14 @@
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\Presentation.exe.config
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\Presentation.exe
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\Presentation.pdb
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\EntityFramework.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\EntityFramework.xml
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.csprojAssemblyReference.cache
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.csproj.GenerateResource.cache
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.csproj.CopyComplete
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.exe
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.pdb
