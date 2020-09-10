@@ -29,6 +29,17 @@ namespace DataAcces.Entities
         public string Ubicacion { get; set; }
         public string TiempodeVida { get; set; }
 
+        #region Inventario
+        // INVENTARIO
+        public Guid IdInventario { get; set; }
+        public int SalidaInventario { get; set; }
+        public int ArtiuloSalidaInventario { get; set; }
+
+        #endregion
+
+
+
+
 
     }
 }

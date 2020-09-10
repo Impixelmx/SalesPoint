@@ -25,5 +25,11 @@ namespace DataAcces.Entities
         public string EsProveedor { get; set; }
         public string IdContactoPrincipal { get; set; }
         public string NombreContacto { get; set; }
+
+        //Inventario
+        #region Inventario
+        public int ProveedorEntrada { get; set; }
+
+        #endregion
     }
 }

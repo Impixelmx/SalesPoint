@@ -10,7 +10,7 @@ namespace DataAcces.Entities
     {
         public Guid IdCliente { get; set; }
         public Guid IdTenant { get; set; }
-        public Guid IdPersona { get; set; }
+        public Guid IdPersona { get; set; }        
         public string Nombre { get; set; }
         public string Bloqueado { get; set; }
         public string MotivoBloqueo { get; set; } 
@@ -24,6 +24,11 @@ namespace DataAcces.Entities
         public string EsCliente { get; set; }
         public string EsProveedor { get; set; }
         public string IdContactoPrincipal { get; set; }
-        public string NombreContacto { get; set; } 
+        public string NombreContacto { get; set; }
+
+        //Inventario
+        #region Inventario
+        public Guid IdInventarioSalida { get; set; }
+        #endregion
     }
 }

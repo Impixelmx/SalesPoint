@@ -58,6 +58,11 @@
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Codigo.cs" />
     <Compile Include="Entities\Empleado.cs" />
+    <Compile Include="Entities\Inventario.cs" />
+    <Compile Include="Entities\InventarioEntrada.cs" />
+    <Compile Include="Entities\InventarioItemEntrada.cs" />
+    <Compile Include="Entities\InventarioItemSalida.cs" />
+    <Compile Include="Entities\InventarioSalida.cs" />
     <Compile Include="Entities\Moneda.cs" />
     <Compile Include="Entities\Profesion.cs" />
     <Compile Include="Entities\Proveedor.cs" />

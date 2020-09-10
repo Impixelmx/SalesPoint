@@ -13,7 +13,6 @@ namespace DataAcces.Entities
 
         [MaxLength(50)]
         public Guid IdPersona { get; set; }
-
         public Guid IdTenant { get; set; }
 
         #region Identificación 
