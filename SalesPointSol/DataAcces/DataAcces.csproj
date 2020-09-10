@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Contracts\IGenericRepository.cs" />
     <Compile Include="Entities\Articulo.cs" />
     <Compile Include="Entities\Audit.cs" />
     <Compile Include="Entities\Categoria.cs" />
@@ -78,7 +79,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Contracts\" />
     <Folder Include="Repository\" />
   </ItemGroup>
   <ItemGroup>
