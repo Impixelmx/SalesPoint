@@ -1,0 +1,12 @@
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\Domain.dll.config
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\Domain.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\Domain.pdb
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\EntityFramework.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\EntityFramework.xml
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\obj\Debug\Domain.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\obj\Debug\Domain.pdb
