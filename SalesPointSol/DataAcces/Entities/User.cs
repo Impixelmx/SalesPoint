@@ -29,7 +29,6 @@ namespace DataAcces.Entities
 
         [Required(ErrorMessage = "Confirm Password")]
         public string ConfirmPassword { get; set; }     
-
         public bool AccessFailedCount { get; set; }
         public string  ConcurrencyStamp { get; set; }      
         public bool EmailConfirmed { get; set; }

@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Contracts\IArticuloRepository.cs" />
     <Compile Include="Contracts\IGenericRepository.cs" />
+    <Compile Include="Contracts\IUserRepository.cs" />
     <Compile Include="Entities\Articulo.cs" />
     <Compile Include="Entities\Audit.cs" />
     <Compile Include="Entities\Categoria.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Repository\ArticuloRepository.cs" />
     <Compile Include="Repository\MasterRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Repository\UserRespository.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
