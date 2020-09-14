@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Configuration;
 using System.Data.SqlClient;
 
-namespace DataAcces.Repository
+namespace DataAcces.Repositories
 {
     /// <summary>
     //using System.Configuration;

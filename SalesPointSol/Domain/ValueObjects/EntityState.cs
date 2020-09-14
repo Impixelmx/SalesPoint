@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DataAcces.Contracts;
-using DataAcces.Entities;
 
-
-namespace DataAcces.Repository
+namespace Domain.ValueObjects
 {
-    public class ArticuloRepository
+    public enum EntityState
     {
-
+        Added,
+        Deleted,
+        Modified
     }
 }

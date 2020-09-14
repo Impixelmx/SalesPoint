@@ -1,4 +1,3 @@
-C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\Domain.dll.config
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\Domain.dll
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\Domain.pdb
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\EntityFramework.dll

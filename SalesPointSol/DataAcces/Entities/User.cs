@@ -10,7 +10,7 @@ namespace DataAcces.Entities
     public class User
     {
         [MaxLength(50)] 
-        public Guid IdUser { get; set; }
+        public int IdUser { get; set; }
 
         public Guid IdTenant { get; set; }
 

@@ -1,0 +1,2 @@
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\obj\Debug\DataAcces.csprojAssemblyReference.cache
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\obj\Debug\DataAcces.csproj.CoreCompileInputs.cache

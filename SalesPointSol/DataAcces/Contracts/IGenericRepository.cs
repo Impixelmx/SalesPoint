@@ -16,7 +16,7 @@ namespace DataAcces.Contracts
     {
         int Add(Entity entity);
         int Edit(Entity entity);
-        int Remove(Guid ID);
+        int Remove(int ID);
         IEnumerable<Entity> GetAll();
     }
 }

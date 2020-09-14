@@ -7,7 +7,7 @@ using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace DataAcces.Repository
+namespace DataAcces.Repositories
 {
     public abstract class MasterRepository:Repository
     {
