@@ -1,2 +1,11 @@
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\obj\Debug\DataAcces.csprojAssemblyReference.cache
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\obj\Debug\DataAcces.csproj.CoreCompileInputs.cache
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\bin\Debug\DataAcces.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\bin\Debug\DataAcces.pdb
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\bin\Debug\EntityFramework.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\bin\Debug\EntityFramework.xml
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\obj\Debug\DataAcces.csproj.CopyComplete
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\obj\Debug\DataAcces.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\DataAcces\obj\Debug\DataAcces.pdb

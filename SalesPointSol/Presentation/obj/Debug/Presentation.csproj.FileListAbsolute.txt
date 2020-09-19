@@ -12,3 +12,5 @@ C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\ob
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.csproj.CopyComplete
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.exe
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.pdb
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\Domain.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\Domain.pdb

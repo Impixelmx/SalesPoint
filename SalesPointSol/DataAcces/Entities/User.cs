@@ -12,35 +12,24 @@ namespace DataAcces.Entities
         [MaxLength(50)] 
         public int IdUser { get; set; }
 
-        public Guid IdTenant { get; set; }
-
-        [Required(ErrorMessage = "User Name")]
+        [Required(ErrorMessage = "Username is required")]
+        [StringLength(16, ErrorMessage = "Must be between 3 and 16 characters", MinimumLength = 10)]
         public string UserName { get; set; }
 
-        [Required]
-        [Display(Name = "E-Mail")]
-        [DataType(DataType.EmailAddress)]
-        [EmailAddress]
-        [StringLength(256)]
+        [Required(ErrorMessage = "Email is required")]
+        [StringLength(16, ErrorMessage = "Must be between 5 and 50 characters", MinimumLength = 5)]
+        [RegularExpression("^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$", ErrorMessage = "Must be a valid email")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Password")]
+        [Required(ErrorMessage = "Password is required")]
+        [StringLength(255, ErrorMessage = "Must be between 5 and 255 characters", MinimumLength = 5)]
+        [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [Required(ErrorMessage = "Confirm Password")]
-        public string ConfirmPassword { get; set; }     
-        public bool AccessFailedCount { get; set; }
-        public string  ConcurrencyStamp { get; set; }      
-        public bool EmailConfirmed { get; set; }
-        public bool LockoutEnabled { get; set; }
-        public bool LockoutEnd { get; set; }
-        public string NormalizedEmail { get; set; }
-        public string NormalizedUserName { get; set; }
-        public string PasswordHash { get; set; }
+        public DateTime Birthday { get; set; }
 
-        
-      
-
-       
+        public string Language { get; set; }
     }
 }
+
+ 

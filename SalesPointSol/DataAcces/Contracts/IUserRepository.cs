@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAcces.Contracts
-{     
+{
     public interface IUserRepository : IGenericRepository<User>
     {
-       //bshsjsjsbjs
+        //bshsjsjsbjs 
     }
 }

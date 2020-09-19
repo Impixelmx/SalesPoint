@@ -10,11 +10,11 @@ namespace DataAcces.Entities
 {
     public class Audit
     {
-        public Audit()
-        {
-            FechaCreacion = DateTimeHelper.GetDateTimeMexicoCity();
-            FechaModificacion = FechaCreacion;
-        }
+        //public Audit()
+        //{
+        //    FechaCreacion = DateTimeHelper.GetDateTimeMexicoCity();
+        //    FechaModificacion = FechaCreacion;
+        //}
 
         public bool Estatus { get; set; }
         [StringLength(256)]
