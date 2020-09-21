@@ -11,7 +11,7 @@ using Domain.ValueObjects;
 
 namespace Domain.Models
 {
-    public class UserModel
+    public class UserModel:IDisposable
     {
         private int idUser;
         private string userName;
@@ -62,49 +62,6 @@ namespace Domain.Models
                 userDataModel.Birthday = birthday;
                 userDataModel.Language = language;
 
-
-                //TODO: Descomentar Cuando Exista Configuracion 
-                //if (configDataModel == "Espanish")
-                //{
-                //    switch (State)
-                //    {
-                //        case EntityState.Added:
-                //            userRepository.Add(userDataModel);
-                //            message = "Datos Guardados Correctamente";
-                //            break;
-
-                //        case EntityState.Modified:
-                //            userRepository.Edit(userDataModel);
-                //            message = "Datos Editados Correctamente";
-                //            break;
-
-                //        case EntityState.Deleted:
-                //            userRepository.Remove(IdUser);
-                //            message = "Datos Eliminados Correctamente";
-                //            break;
-                //    }
-                //}
-                //else
-                //{
-                //    switch (State)
-                //    {
-                //        case EntityState.Added:
-                //            userRepository.Add(userDataModel);
-                //            message = "Data has been saved correctly";
-                //            break;
-
-                //        case EntityState.Modified:
-                //            userRepository.Edit(userDataModel);
-                //            message = "Data has been Modify correctly";
-                //            break;
-
-                //        case EntityState.Deleted:
-                //            userRepository.Remove(IdUser);
-                //            message = "Data has been Deleted correctly";
-                //            break;
-                //    }
-                //}
-
                 switch (State)
                 {
                     case EntityState.Added:
@@ -140,6 +97,39 @@ namespace Domain.Models
             return message;
         }
 
+        public List<UserModel> GetAll()
+        {
+            var userDataModel = userRepository.GetAll();
+
+            var lstUsers= new List<UserModel>();
+
+            foreach (User item in userDataModel)
+            {
+                var birthDate = item.Birthday;
+                lstUsers.Add(new UserModel
+                {
+                    IdUser = item.IdUser,
+                    userName = item.UserName,
+                    email = item.Email,
+                    password = item.Password,
+                    birthday = item.Birthday,
+                    language =item.Language,
+                    age= CalculateAge(birthDate)
+                });
+            }
+            return lstUsers;
+        }
+
+        private int CalculateAge (DateTime date)
+        {
+            DateTime dateNow = DateTime.Now;
+            return dateNow.Year - date.Year;
+        }
+
+        public void Dispose()
+        {
+            
+        }
     }
 }
 

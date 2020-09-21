@@ -14,3 +14,8 @@ C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\ob
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.pdb
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\Domain.dll
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\Domain.pdb
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\DataAcces.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\DataAcces.pdb
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.Forms.FormUser.resources
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.Forms.Dashboard.Dashboard.resources

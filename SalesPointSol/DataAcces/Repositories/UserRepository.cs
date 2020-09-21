@@ -74,8 +74,9 @@ namespace DataAcces.Repositories
                     UserName = item[1].ToString(),
                     Password = item[2].ToString(),
                     Email = item[3].ToString(),
-                    Language = item[4].ToString()
-                });
+                    Language = item[4].ToString(),
+                    Birthday = Convert.ToDateTime(item[5])
+                }); ;
             }
             return listUser;
         }

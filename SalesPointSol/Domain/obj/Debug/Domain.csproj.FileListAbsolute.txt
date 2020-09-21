@@ -9,3 +9,5 @@ C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\obj\Debu
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\obj\Debug\Domain.csproj.CopyComplete
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\obj\Debug\Domain.dll
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\obj\Debug\Domain.pdb
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\DataAcces.dll
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Domain\bin\Debug\DataAcces.pdb
