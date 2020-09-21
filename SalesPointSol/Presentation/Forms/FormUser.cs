@@ -37,6 +37,11 @@ namespace Presentation.Forms
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
 
 
+            //TODO; investigar como jugar con resolucion cuando existen 2 o 3 pantallas con resolucion Diferente
+            //Pantalla
+            this.Location = new Point(0, 0);
+            this.Size = Screen.PrimaryScreen.WorkingArea.Size;
+
         }
 
         public struct RGBColors
@@ -184,6 +189,30 @@ namespace Presentation.Forms
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnMax_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            btnMax.Visible = false;
+            btnRes.Visible = true;
+        }
+
+        private void btnRes_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            btnMax.Visible = true;
+            btnRes.Visible = false;
+        }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
