@@ -1,6 +1,7 @@
 ﻿using Microsoft.SqlServer.Server;
 using Presentation.Forms;
-using Presentation.Forms.Dashboard;
+using Presentation.Forms.DashboardView;
+using Presentation.Forms.VentasView;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,7 @@ namespace Presentation
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormUser());
+            Application.Run(new Ventas());
         }
     }
 }

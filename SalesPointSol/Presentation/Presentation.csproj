@@ -59,31 +59,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\Dashboard\Dashboard.cs">
+    <Compile Include="Forms\DashboardView\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Dashboard\Dashboard.Designer.cs">
+    <Compile Include="Forms\DashboardView\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormHome.cs">
+    <Compile Include="Forms\UsuariosView\FormUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormHome.Designer.cs">
-      <DependentUpon>FormHome.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\FormUser.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FormUser.Designer.cs">
+    <Compile Include="Forms\UsuariosView\FormUser.Designer.cs">
       <DependentUpon>FormUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VentasView\Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VentasView\Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\Dashboard\Dashboard.resx">
+    <EmbeddedResource Include="Forms\DashboardView\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormUser.resx">
+    <EmbeddedResource Include="Forms\UsuariosView\FormUser.resx">
       <DependentUpon>FormUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VentasView\Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -109,8 +112,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Forms\Img\" />
     <Folder Include="Helpers\" />
+    <Folder Include="Img\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>

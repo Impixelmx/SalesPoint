@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FontAwesome.Sharp;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,25 +9,21 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static Presentation.Forms.FormUser;
 
-using FontAwesome.Sharp;
-
-namespace Presentation.Forms
+namespace Presentation.Forms.DashboardView
 {
-    public partial class FormUser : Form
+    public partial class Dashboard : Form
     {
-
         //fields
-
         private IconButton currentBtn;
         private Panel leftBorderBtn;
 
-
-        public FormUser()
+        public Dashboard()
         {
             InitializeComponent();
             leftBorderBtn = new Panel();
-            leftBorderBtn.Size = new Size(7, 60);
+            leftBorderBtn.Size = new Size(7, 33);
             panelMenu.Controls.Add(leftBorderBtn);
             //Form
             this.Text = string.Empty;
@@ -41,9 +38,7 @@ namespace Presentation.Forms
             //Pantalla
             this.Location = new Point(0, 0);
             this.Size = Screen.PrimaryScreen.WorkingArea.Size;
-
         }
-
         public struct RGBColors
         {
             public static Color color1 = Color.FromArgb(172, 126, 241);
@@ -79,13 +74,13 @@ namespace Presentation.Forms
                 //cambiamos el color del icono al parametro color
                 currentBtn.IconColor = color;
                 //Cambiamos la relacion de texto e imagen a imagen antes de texto
-                currentBtn.TextImageRelation =TextImageRelation.TextBeforeImage;
+                currentBtn.TextImageRelation = TextImageRelation.TextBeforeImage;
                 //Alineamos el icono a la decrecha
                 currentBtn.ImageAlign = ContentAlignment.MiddleRight;
                 //panel izquierdo de botton
                 leftBorderBtn.BackColor = color;
                 //asignamos una nueva ubicacion
-                leftBorderBtn.Location = new Point(0,currentBtn.Location.Y);
+                leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);
                 //colocamos visibilidad en 0
                 leftBorderBtn.Visible = true;
                 //traemos al frente el boton
@@ -113,8 +108,13 @@ namespace Presentation.Forms
                 //Cambiamos la relacion de texto e imagen a imagen antes de texto
                 currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
                 //Alineamos el icono a la decrecha
-                currentBtn.ImageAlign = ContentAlignment.MiddleLeft; 
+                currentBtn.ImageAlign = ContentAlignment.MiddleLeft;
             }
+        }
+
+        private void BtnHome_Click(object sender, EventArgs e)
+        {
+            Reset();
         }
 
         private void btnDash_Click(object sender, EventArgs e)
@@ -147,24 +147,29 @@ namespace Presentation.Forms
             ActivateButton(sender, RGBColors.color6);
         }
 
-        private void btnUser_Click(object sender, EventArgs e)
+        private void btnFac_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color1);
+            ActivateButton(sender, RGBColors.color5);
         }
 
-        private void btnFactura_Click(object sender, EventArgs e)
+        private void btnUsr_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color4);
+        }
+
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color3);
+        }
+
+        private void btnClientes_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
         }
 
         private void btnConfig_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color3);
-        }
-
-        private void BtnHome_Click(object sender, EventArgs e)
-        {
-            Reset();
+            ActivateButton(sender, RGBColors.color1);
         }
 
         private void Reset()
@@ -183,7 +188,6 @@ namespace Presentation.Forms
 
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int WParam, int LParam);
-
 
         private void panelTop_MouseDown(object sender, MouseEventArgs e)
         {

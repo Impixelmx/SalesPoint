@@ -18,4 +18,5 @@ C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bi
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\DataAcces.dll
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\bin\Debug\DataAcces.pdb
 C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.Forms.FormUser.resources
-C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.Forms.Dashboard.Dashboard.resources
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.Forms.DashboardView.Dashboard.resources
+C:\Users\jsali\Desktop\Develop\IDEABYTE\SalesPoint\SalesPointSol\Presentation\obj\Debug\Presentation.Forms.VentasView.Ventas.resources
